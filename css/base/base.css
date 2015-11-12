@@ -1,0 +1,12 @@
+body {
+  font-size: 16px;
+}
+
+#content {
+  border: 2px solid black;
+  height: 50%;
+  width: 30%;
+  position: fixed;
+  top: 30%;
+  right: 35%;
+}

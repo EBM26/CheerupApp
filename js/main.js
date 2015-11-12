@@ -23,7 +23,8 @@ var Jokes = [
 
 ];
 
-var getJoke = document.getElementById('jokeList');
-getJoke.addEventListener('click', function(ev){
-  ev.target.innerHTML = Jokes[Math.floor(Math.random() * Jokes.length)].joke;
+// function to populate div with jokes
+
+ document.getElementById("joke-button").addEventListener("click", function(){
+    document.getElementById("content").innerHTML = Jokes[Math.floor(Math.random() * Jokes.length)].joke;
 });

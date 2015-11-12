@@ -1,0 +1,41 @@
+button {
+  width: 25%;
+  height: 6%;
+  font-size: 1.3em;
+}
+
+#joke-button {
+  border-top-right-radius: .3em;
+  border-bottom-right-radius: .3em;
+  background-color: orange;
+  position: fixed;
+  top: 20%;
+  left: 0;
+}
+
+#picture-button {
+  background-color: teal;
+  border-top-left-radius: .3em;
+  border-bottom-left-radius: .3em;
+  position: fixed;
+  top: 40%;
+ right: 0;
+}
+
+#quote-button {
+  background-color: red;
+  border-top-right-radius: .3em;
+  border-bottom-right-radius: .3em;
+  position: fixed;
+  top: 60%;
+  left: 0;
+}
+
+#music-button {
+  background-color: green;
+  border-top-left-radius: .3em;
+  border-bottom-left-radius: .3em;
+  position: fixed;
+  top: 80%;
+  right: 0;
+}
