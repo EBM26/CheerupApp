@@ -1,3 +1,10 @@
+ // global variable for pop-up effects
+
+ var closePopup = document.getElementById("popupclose");
+ var overlay = document.getElementById("overlay");
+ var popup = document.getElementById("popup");
+
+// jokes array 
 var Jokes = [
 
 {joke: "I wondered why the baseball was getting bigger. Then it hit me."}, 
@@ -23,16 +30,17 @@ var Jokes = [
 
 ];
 
-// function to populate div with jokes
+// function to populate pop-up with jokes
 
 document.getElementById("joke-button").addEventListener("click", function(){
-  document.getElementById("content").innerHTML = Jokes[Math.floor(Math.random() * Jokes.length)].joke;
-  document.getElementById("content").classList.remove('quote-font');
-  document.getElementById("content").classList.add('joke-font');
+  overlay.style.display = 'block'; // gives 'block' display style to #overlay div
+  popup.style.display = 'block'; // gives 'block' display style to #popup div
+  document.getElementById("content").innerHTML = Jokes[Math.floor(Math.random() * Jokes.length)].joke; // takes a random joke and displays it inside #content div
+  document.getElementById("content").className = 'joke-font'; // adds 'jokefont' class to #content div when clicked
 });
 
 
-
+// inspirational quotes array
 
 var Quotes = [
 
@@ -59,12 +67,13 @@ var Quotes = [
 
 ];
 
-// function to populate div with jokes
+// function to populate div with quotes
 
 document.getElementById("quote-button").addEventListener("click", function(){
+  overlay.style.display = 'block';
+  popup.style.display = 'block';
   document.getElementById("content").innerHTML = Quotes[Math.floor(Math.random() * Quotes.length)].quote;
-  document.getElementById("content").classList.remove('joke-font');
-  document.getElementById("content").classList.add('quote-font');
+  document.getElementById("content").className = 'quote-font';
 });
 
 
@@ -95,10 +104,25 @@ var cutePics = [
 ];
 
 document.getElementById("picture-button").addEventListener("click", function(){
+  overlay.style.display = 'block';
+  popup.style.display = 'block';
   document.getElementById("content").innerHTML = cutePics[Math.floor(Math.random() * cutePics.length)].image;
-  document.getElementById("content").classList.remove('joke-font');
-  document.getElementById("content").classList.remove('quote-font');
+  document.getElementById("content").className = ''; // removes all other added classes
+  
 
 });
+
+
+// Close Popup Event
+closePopup.onclick = function() {
+  overlay.style.display = 'none'; 
+  popup.style.display = 'none';
+
+  };
+
+
+
+
+
 
 
