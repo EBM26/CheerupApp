@@ -121,7 +121,11 @@ closePopup.onclick = function() {
   };
 
 
+// page loader code
 
+$(window).load(function() {
+  $(".loader").fadeOut(2000);
+})
 
 
 

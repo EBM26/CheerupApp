@@ -57,3 +57,21 @@ body {
   padding: 10px;
   cursor: pointer;
 }
+
+/* page loader style */
+
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('../../images/smileygif.GIF') 50% 50% no-repeat rgb(249,249,249);
+}
+
+#open-message {
+  text-align: center;
+  font-size: 4em;
+  margin-top: 10%;
+}
