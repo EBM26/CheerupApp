@@ -25,6 +25,80 @@ var Jokes = [
 
 // function to populate div with jokes
 
- document.getElementById("joke-button").addEventListener("click", function(){
-    document.getElementById("content").innerHTML = Jokes[Math.floor(Math.random() * Jokes.length)].joke;
+document.getElementById("joke-button").addEventListener("click", function(){
+  document.getElementById("content").innerHTML = Jokes[Math.floor(Math.random() * Jokes.length)].joke;
+  document.getElementById("content").classList.remove('quote-font');
+  document.getElementById("content").classList.add('joke-font');
 });
+
+
+
+
+var Quotes = [
+
+{quote: "Try not to become a man of success but a man of value - Albert Einstein"},
+{quote: "Doubt whom you will, but never yourself - Christian Nestell Bovee"},
+{quote: "Do not wait; the time will never be 'just right.' Start where you stand - Napoleon Hill"},
+{quote: "The power of imagination makes us infinite - John Muir"},
+{quote: "You miss 100% of the shots you don't take - Wayne Gretzky"},
+{quote: "I attribute my success to this: I never gave or took any excuse - Florence Nightingale"},
+{quote: "I’ve failed over and over and over again in my life. And that is why I succeed - Michael Jordan"},
+{quote: "Life is what happens to you while you’re busy making other plans - John Lennon"},
+{quote: "The most common way people give up their power is by thinking they don’t have any - Alice Walker"},
+{quote: "Your time is limited, so don’t waste it living someone else’s life – Steve Jobs"},
+{quote: "I am not a product of my circumstances. I am a product of my decisions – Stephen Covey"},
+{quote: "You can never cross the ocean until you have the courage to lose sight of the shore – Christopher Columbus"},
+{quote: "Whether you think you can or you think you can’t, you’re right – Henry Ford"},
+{quote: "There is only one way to avoid criticism: do nothing, say nothing, and be nothing – Aristotle"},
+{quote: "Everything you’ve ever wanted is on the other side of fear – George Addair"},
+{quote: "Challenges are what make life interesting and overcoming them is what makes life meaningful – Joshua J. Marine"},
+{quote: "If you want to lift yourself up, lift up someone else – Booker T. Washington"},
+{quote: "Build your own dreams, or someone else will hire you to build theirs. – Farrah Gray"},
+{quote: "Remember that not getting what you want is sometimes a wonderful stroke of luck. – Dalai Lama"},
+{quote: "If you do what you’ve always done, you’ll get what you’ve always gotten. – Tony Robbins"}
+
+];
+
+// function to populate div with jokes
+
+document.getElementById("quote-button").addEventListener("click", function(){
+  document.getElementById("content").innerHTML = Quotes[Math.floor(Math.random() * Quotes.length)].quote;
+  document.getElementById("content").classList.remove('joke-font');
+  document.getElementById("content").classList.add('quote-font');
+});
+
+
+
+var cutePics = [
+
+{image: '<img src="images/cute_pics/cute-pic-1.jpg" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-2.jpg" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-3.jpg" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-4.jpg" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-5.jpg" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-6.jpg" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-7.jpg" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-8.jpg" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-9.jpg" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-10.jpg" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-11.png" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-12.jpg" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-13.jpeg" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-14.jpg" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-15.jpg" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-16.jpg" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-17.jpg" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-18.jpg" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-19.jpg" class="image">'},
+{image: '<img src="images/cute_pics/cute-pic-20.jpg" class="image">'},
+
+];
+
+document.getElementById("picture-button").addEventListener("click", function(){
+  document.getElementById("content").innerHTML = cutePics[Math.floor(Math.random() * cutePics.length)].image;
+  document.getElementById("content").classList.remove('joke-font');
+  document.getElementById("content").classList.remove('quote-font');
+
+});
+
+

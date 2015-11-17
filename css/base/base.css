@@ -10,3 +10,19 @@ body {
   top: 30%;
   right: 35%;
 }
+
+.quote-font {
+  font-family: cursive;
+  padding: 10px;
+}
+
+.joke-font {
+  font-size: 30px;
+  font-family: Arial;
+  padding: 60px;
+}
+
+.image {
+  height: 403px;
+  width: 433px;
+}
