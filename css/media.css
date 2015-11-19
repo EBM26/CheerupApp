@@ -1,0 +1,41 @@
+@media only screen and (max-width: 568px) {
+
+    body{
+      font-size: 12px;
+
+    }
+
+    button {
+      width: 40%;
+      height: 10%;
+      font-size: 1em;
+    }
+
+    #player {
+      width: 60%;
+      height: 40%;
+    }
+
+    #content {
+      top: 10%;
+     }
+
+    .quote-font {
+      font-size: 1.7em;
+      line-height: 1.5em;
+    } 
+
+    .joke-font {
+      font-size: 2em;
+    }
+
+    .image {
+      width: 180%;
+      margin-top:90%;
+    }
+
+    #open-message {
+      font-size: 3.5em;
+    }
+
+}
