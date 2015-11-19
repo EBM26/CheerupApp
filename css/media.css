@@ -43,5 +43,9 @@
       font-size: 1em;
     }
 
+    #playerDiv {
+      bottom: 5%;
+    }
+
 
 }
