@@ -23,6 +23,7 @@
     .quote-font {
       font-size: 1.7em;
       line-height: 1.5em;
+      padding-top: 0;
     } 
 
     .joke-font {
@@ -37,5 +38,10 @@
     #open-message {
       font-size: 3.5em;
     }
+    
+    #music-title {
+      font-size: 1em;
+    }
+
 
 }
