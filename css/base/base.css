@@ -3,28 +3,33 @@ body {
 }
 
 #content {
-  border: 2px solid black;
   height: 50%;
   width: 30%;
   position: fixed;
   top: 30%;
   right: 35%;
+
 }
 
 .quote-font {
-  font-family: cursive;
-  padding: 10px;
+  font-family: 'Aclonica', sans-serif;
+  font-size: 2em;
+  line-height: 1.5em;
+
+  padding-top: 2%;
 }
 
 .joke-font {
-  font-size: 30px;
-  font-family: Arial;
-  padding: 60px;
+  font-size: 3em;
+  font-family: 'Covered By Your Grace', cursive;
+  line-height: 1.5em;
 }
 
 .image {
-  height: 403px;
-  width: 433px;
+  height: 80%; /* 403px; */
+  width: 90%; /* 433px; */
+  padding-top: 8%;
+  padding-left: 5%;
 }
 
 
@@ -33,7 +38,7 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  background: #999;
+  background-color: rgba(254, 255, 255, 1);
   width: 100%;
   height: 100%;
   opacity: 0.8;
@@ -44,7 +49,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  background: #fff;
+  background-color: rgba(255, 255, 0, 0.6);
   width: 500px;
   height: 500px;
   margin-left: -250px; /*Half the value of width to center div*/
@@ -56,6 +61,7 @@ body {
   float: right;
   padding: 10px;
   cursor: pointer;
+  background-color: rgba(244, 44, 44, 0.6); 
 }
 
 /* page loader style */

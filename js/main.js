@@ -44,26 +44,26 @@ document.getElementById("joke-button").addEventListener("click", function(){
 
 var Quotes = [
 
-{quote: "Try not to become a man of success but a man of value - Albert Einstein"},
-{quote: "Doubt whom you will, but never yourself - Christian Nestell Bovee"},
-{quote: "Do not wait; the time will never be 'just right.' Start where you stand - Napoleon Hill"},
-{quote: "The power of imagination makes us infinite - John Muir"},
-{quote: "You miss 100% of the shots you don't take - Wayne Gretzky"},
-{quote: "I attribute my success to this: I never gave or took any excuse - Florence Nightingale"},
-{quote: "I’ve failed over and over and over again in my life. And that is why I succeed - Michael Jordan"},
-{quote: "Life is what happens to you while you’re busy making other plans - John Lennon"},
-{quote: "The most common way people give up their power is by thinking they don’t have any - Alice Walker"},
-{quote: "Your time is limited, so don’t waste it living someone else’s life – Steve Jobs"},
-{quote: "I am not a product of my circumstances. I am a product of my decisions – Stephen Covey"},
-{quote: "You can never cross the ocean until you have the courage to lose sight of the shore – Christopher Columbus"},
-{quote: "Whether you think you can or you think you can’t, you’re right – Henry Ford"},
-{quote: "There is only one way to avoid criticism: do nothing, say nothing, and be nothing – Aristotle"},
-{quote: "Everything you’ve ever wanted is on the other side of fear – George Addair"},
-{quote: "Challenges are what make life interesting and overcoming them is what makes life meaningful – Joshua J. Marine"},
-{quote: "If you want to lift yourself up, lift up someone else – Booker T. Washington"},
-{quote: "Build your own dreams, or someone else will hire you to build theirs. – Farrah Gray"},
-{quote: "Remember that not getting what you want is sometimes a wonderful stroke of luck. – Dalai Lama"},
-{quote: "If you do what you’ve always done, you’ll get what you’ve always gotten. – Tony Robbins"}
+{quote: "'Try not to become a man of success but a man of value' - Albert Einstein"},
+{quote: "'Doubt whom you will, but never yourself' - Christian Nestell Bovee"},
+{quote: "'Do not wait; the time will never be 'just right.' Start where you stand' - Napoleon Hill"},
+{quote: "'The power of imagination makes us infinite' - John Muir"},
+{quote: "'You miss 100% of the shots you don't take' - Wayne Gretzky"},
+{quote: "'I attribute my success to this: I never gave or took any excuse' - Florence Nightingale"},
+{quote: "'I’ve failed over and over and over again in my life. And that is why I succeed' - Michael Jordan"},
+{quote: "'Life is what happens to you while you’re busy making other plans' - John Lennon"},
+{quote: "'The most common way people give up their power is by thinking they don’t have any' - Alice Walker"},
+{quote: "'Your time is limited, so don’t waste it living someone else’s life' – Steve Jobs"},
+{quote: "'I am not a product of my circumstances. I am a product of my decisions' – Stephen Covey"},
+{quote: "'You can never cross the ocean until you have the courage to lose sight of the shore' – Christopher Columbus"},
+{quote: "'Whether you think you can or you think you can’t, you’re right' – Henry Ford"},
+{quote: "'There is only one way to avoid criticism: do nothing, say nothing, and be nothing' – Aristotle"},
+{quote: "'Everything you’ve ever wanted is on the other side of fear' – George Addair"},
+{quote: "'Challenges are what make life interesting and overcoming them is what makes life meaningful' – Joshua J. Marine"},
+{quote: "'If you want to lift yourself up, lift up someone else' – Booker T. Washington"},
+{quote: "'Build your own dreams, or someone else will hire you to build theirs' – Farrah Gray"},
+{quote: "'Remember that not getting what you want is sometimes a wonderful stroke of luck' – Dalai Lama"},
+{quote: "'If you do what you’ve always done, you’ll get what you’ve always gotten' – Tony Robbins"}
 
 ];
 
