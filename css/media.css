@@ -1,4 +1,6 @@
-@media only screen and (max-width: 568px) {
+/* for iphone 5 or smaller */
+
+@media only screen and (max-width: 568px) {   
 
     body{
       font-size: 12px;
@@ -48,4 +50,32 @@
     }
 
 
+}
+
+
+@media only screen and (min-width: 569px) and (max-width: 1024px) {
+
+    body{
+      font-size: 14px;
+    }
+    
+    button {
+      width: 40%;
+      height: 10%;
+      font-size: 2.3em;
+    }
+
+    #player {
+      width: 100%;
+      height: 250px;
+    }
+    
+    .joke-font {
+      line-height: 1.2em;
+    }
+
+    .image {
+      width: 140%;
+      right: 40%;
+    }
 }
