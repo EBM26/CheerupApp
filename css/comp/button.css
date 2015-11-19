@@ -6,6 +6,8 @@ button {
 
 }
 
+button:focus {outline:0;}
+
 @keyframes jokeButton {
   0% {top: 10%; left: -50%;}
   25% {top: 10%; left: -40%;}

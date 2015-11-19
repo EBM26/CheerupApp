@@ -1,6 +1,5 @@
  // global variable for pop-up effects
 
- var closePopup = document.getElementById("popupclose");
  var overlay = document.getElementById("overlay");
  var popup = document.getElementById("popup");
 
@@ -114,13 +113,17 @@ document.getElementById("picture-button").addEventListener("click", function(){
 
 
 // Close Popup Event
-closePopup.onclick = function() {
+overlay.onclick = function() {
   overlay.style.display = 'none'; 
   popup.style.display = 'none';
 
   };
 
+popup.onclick = function() {
+  overlay.style.display = 'none'; 
+  popup.style.display = 'none';
 
+  };
 // page loader code
 
 $(window).load(function() {
