@@ -5,17 +5,19 @@
   <link rel="icon" type="image/x-icon" href="images/favicon.ico" /> 
   <title>Cheer Up App</title>
   <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Aclonica|Amarante|Audiowide|Bangers|Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <script src="js/youtube.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
 
-<!-- loading gif -->
-  <div class="loader"><h1 id="open-message">Cheer Up!!</h1></div>
-
-    <button id="joke-button">Read a funny joke!</button>
-    <button id="picture-button">See something cute!</button>
-    <button id="quote-button">Read something inspiring!</button>
+<!-- loading gif 
+  <div class="loader"><h1 id="open-message">Cheer up! Every day is a new beginning!</h1></div>
+-->
+    <button id="joke-button" class="hvr-grow">Read a funny joke!</button>
+    <button id="picture-button" class="hvr-grow">See something cute!</button>
+    <button id="quote-button" class="hvr-grow">Read something inspiring!</button>
 
 
   <div id="overlay"></div>
@@ -29,10 +31,10 @@
 </div>
   
   <div id="playerDiv">
-  <p>Listen to Some Happy Music!</p>
+  <p id="music-title"><i class="fa fa-music"></i> Listen to Some Happy Music!</p>
     <iframe id="player" type="text/html" 
   src="http://www.youtube.com/embed?listType=playlist&list=PLxFtsgI31thaIMXs5ONeWz6fciEb3u4fc"
-  frameborder="0"></iframe> 
+  frameborder="0" class="hvr-grow"></iframe> 
 </div>
  
 

@@ -68,14 +68,24 @@ body {
   height: 100%;
   z-index: 9999;
   background: url('../../images/smileygif.GIF') 50% 50% no-repeat rgb(249,249,249);
+  background-color: rgba(0, 255, 255, 0.1);
 }
 
 #open-message {
   text-align: center;
-  font-size: 4em;
+  font-size: 5em;
   margin-top: 10%;
+  animation: changeColor 4s;
+  font-family: 'Bangers', cursive;
 }
 
+@keyframes changeColor {
+ 0% { color: red; }
+ 50% { color: orange; }
+ 100% { color: yellow; }
+}
 
-
+.laughter {
+  height: 50%;
+}
 
